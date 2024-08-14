@@ -132,6 +132,8 @@ public class ListarAnimalScreen extends JFrame {
             InsertAnimalScreen alterAnimal = new InsertAnimalScreen(anim);
             alterAnimal.pack();
             alterAnimal.setVisible(true);
+            alterAnimal.setSize(546,367);
+            alterAnimal.setLocationRelativeTo(this);
         }catch (Exception e){
             e.printStackTrace();
             JOptionPane.showMessageDialog(this, "Erro ao alterar animal");

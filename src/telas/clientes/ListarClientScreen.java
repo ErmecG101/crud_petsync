@@ -49,6 +49,8 @@ public class ListarClientScreen extends JFrame {
             telaAtualizarCliente = new InsertClientScreen(c);
             telaAtualizarCliente.pack();
             telaAtualizarCliente.setVisible(true);
+            telaAtualizarCliente.setSize(480,286);
+            telaAtualizarCliente.setLocationRelativeTo(this);
         });
     }
 

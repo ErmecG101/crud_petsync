@@ -3,9 +3,12 @@
   <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
-      <xy x="48" y="54" width="436" height="297"/>
+      <xy x="48" y="54" width="800" height="600"/>
     </constraints>
-    <properties/>
+    <properties>
+      <minimumSize width="800" height="125"/>
+      <preferredSize width="800" height="125"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="e3588" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -22,16 +25,8 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties/>
-            <border type="none"/>
+            <border type="none" title="Clientes"/>
             <children>
-              <component id="327a2" class="javax.swing.JButton" binding="btnCliInsert">
-                <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Inserir"/>
-                </properties>
-              </component>
               <component id="b0056" class="javax.swing.JButton" binding="btnCliConsultar">
                 <constraints>
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -40,12 +35,20 @@
                   <text value="Consultar"/>
                 </properties>
               </component>
-              <component id="820e5" class="javax.swing.JLabel">
+              <component id="327a2" class="javax.swing.JButton" binding="btnCliInsert">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Inserir"/>
+                </properties>
+              </component>
+              <component id="9ba6a" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Clientes"/>
+                  <text value="Selecione a opção que deseja realizar com os Clientes"/>
                 </properties>
               </component>
             </children>
@@ -56,16 +59,8 @@
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties/>
-            <border type="none"/>
+            <border type="none" title="Animais"/>
             <children>
-              <component id="b0a8f" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Animais"/>
-                </properties>
-              </component>
               <component id="30d53" class="javax.swing.JButton" binding="btnAniInsert">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -80,6 +75,14 @@
                 </constraints>
                 <properties>
                   <text value="Consultar"/>
+                </properties>
+              </component>
+              <component id="18bed" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Selecione a opção que deseja realizar com os Animais"/>
                 </properties>
               </component>
             </children>
